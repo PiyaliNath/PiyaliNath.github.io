@@ -1,0 +1,503 @@
+
+body{
+	background-color: #AFAF9C;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+header{
+	font-family: Lucida Console;
+	padding: 10px 0px;
+	margin-top: 15px;
+	position: absolute;
+	width: 100%;
+	border-bottom: 10px solid black;
+}
+
+header h1, header p {
+		margin-left: 14%;
+}
+
+
+
+#nav {
+	position: relative;
+	float: right;
+	margin-top: 80px;
+	height: 50px;
+	width: 50%;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li{
+	display: inline-block;
+	width: 100px;
+	margin-right: 30px;
+}
+
+#nav ul li a {
+	text-align: center;
+	padding: 10px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-family: cursive;
+
+}
+.active {
+	background-color: #555;
+}
+
+#nav ul li:hover {
+	background-color: #777;
+}
+
+#nav ul li a:hover{
+	color: black;
+}
+
+
+#content {
+	position: relative;
+	top: 150px;
+	min-height: 800px;
+	max-width: 100%;
+	background-color:#ddd;
+}
+.back {
+	background-image: url("back.jpg");
+	background-size: 100%;
+}
+
+#section {
+	background-color: #ddd;
+	width: 650px;
+	position: absolute;
+	right: 0px;
+}
+#text1{
+	font-family: cursive;
+	font-size: 40px;
+	color: white;
+	top:100px;
+	position: absolute;
+}
+#text2{
+	font-family: cursive;
+	font-size: 30px;
+	color: white;
+	top:150px;
+	position: absolute;
+}
+
+.img1{
+	top: 150px;
+	left: 200px; 
+	background:url("p.jpg");
+	width: 350px;
+	height: 350px;
+	border-radius: 175px;
+	cursor: pointer;
+	position: absolute;
+}
+
+.img2 {
+	left: 225px;
+	top: 175px;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	opacity: 0.9;
+}
+.blur{
+	-webkit-filter: blur(3px);
+	filter: blur(2px);
+}
+
+.c1 {
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	/*position: absolute;*/
+	cursor: pointer;
+	
+}
+#index-c1{
+	top: 259px;
+	right: 550px;
+	position: absolute;
+	background-color: #FF6666;
+}
+#content a{
+	text-decoration: none;
+	color: black;
+}
+
+#index-c2{
+	top: 259px;
+	right: 366px; 
+	background-color: #A347FF;
+	position: absolute;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.75;
+	z-index: 10000;
+	display: none;
+}	
+
+.pop-box{
+	height: 210px;
+	width: 785px;
+	position: absolute;
+	margin: 0 auto;
+	top: 10%;
+	right: 20%;
+	bottom: 10%;
+	left: 20%;
+	background-color: #eef;
+	z-index: 10000;
+	box-shadow: 0 0 75px #000;
+	border-radius: 20px;
+	font-family: cursive;
+	display: none;
+}
+#work-pop h1{
+	text-align: center;
+	color: #990000;
+}
+#work-pop p{
+	background-color: orange;
+	text-align: right;
+	padding-right: 35px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 1%;
+	font-size: 18px;
+}
+#ref-pop-overlay {
+	cursor: pointer;
+}
+.align{
+	width: 25%;
+	margin-left: 40px;
+	margin-top: 58px;
+	box-shadow: 0 0 21px #BAE;
+	border-radius: 5px;
+}
+#confirm {
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 80px;
+	text-align: center;
+	margin-left: 45%;
+	margin-top: 3%;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+#confirm:hover {
+	color: white;
+	background-color: #990000;
+}
+
+#index-c3{
+	top: 259px;
+	right: 182px; 
+	background-color:#194719;
+	position: absolute;
+}
+.c1 p{
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	top:51px;
+	position: relative;
+	font-weight: bold;
+}
+
+
+.hov {
+	opacity: 0.8;
+}
+
+footer {
+	width: 100%;
+	clear: both;
+    position: absolute;
+    height: 100px;
+	background-color:#A37547;
+	color: white;
+	margin-top: 150px;
+	border-top: 8px solid black;
+}
+footer a{
+	text-decoration: none;
+}
+footer p{
+	margin-left: 1170px;
+	font-family: cursive;
+	margin-top: 60px;
+	font-size: 14px;
+	color: #2D2D2D;
+}
+.hov-footer:hover{
+	background-color:#5C3D1F;
+	box-shadow: 0 0 6px #ccc;
+	color: green;
+}
+.hov-footer img{
+	margin-left: 10px;
+	margin-top: 4px;
+}
+.social {
+	height:30px;
+	width:140px;
+	border-radius: 5px;
+	background-color:none;
+	color:white;
+	position: absolute;
+	padding-top: 8px;
+	box-shadow: 0 0 6px #000;
+}
+#footer-element1{
+	margin-top: 35px;
+	margin-left: 40px;
+}
+#footer-element2{
+	margin-top: 35px;
+	margin-left: 275px;
+}
+#footer-element3{
+	margin-top: 35px;
+	margin-left: 505px;
+}
+.footer-text{
+	text-decoration: none;
+	margin-left: 33px;
+	font-family: cursive;
+	margin-top: -22px;
+}
+/*CSS style for Project.html*/
+
+.project-h1{
+	font-family: cursive;
+	margin-left: 500px;
+	font-size: 60px;
+	position: absolute;
+	background-color:#ddd;
+}
+
+.p1-img{
+	background-color:#ddd;
+	height: 300px;
+	width:400px;
+	position: absolute;
+	margin-top:250px;
+	left:150px;
+	border: 5px solid black;
+	box-shadow: 5px 8px 6px #668888;
+}
+.p1-img img{
+	width:100%;
+	height: 300px;
+}
+.p1-c1{
+	top:189px;
+	margin-left: 647px; 
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	background-color: #FF6666;
+	position: relative;
+	cursor: pointer;
+}
+.p1-c1 p{
+	text-align: center;
+	font-family: cursive;
+	font-size: 15px;
+	margin-top:66px;
+	margin-left: 23px;
+	font-weight: bold;
+	position: absolute;
+
+}
+.p1-explain{
+	height: 190px;
+	width:100%;
+	background-color:#ddd;
+	right:0px;
+	/*position: absolute;*/
+	margin-top:535px;
+}
+.p1-explain h1{
+	font-family: cursive;
+	/*position: absolute;*/
+	margin-top:-323px;
+	margin-left: 600px;
+	font-size: 30px;
+}
+.p1-explain p{
+	font-family: cursive;
+	/*position: absolute;*/
+	margin-top:21px;
+	margin-left: 600px;
+}
+#diploma {
+	padding-bottom: 250px;
+}
+ /*CSS style for Education.html*/
+.dot {
+    list-style-image: url('dot.png');
+}
+.education-height {
+	height: 1200px;
+}
+ 
+.edu-subcontent{
+	right: 200px;
+	background-color:#ddd;
+	height: 160px;
+	width:600px;
+	position: absolute;
+	padding-bottom: 10px;
+	border-bottom-style:solid;
+	border-width: 1px;
+}
+#edu-c1{
+margin-top: 160px;
+margin-left: 300px;
+position: absolute;
+background-color:#00CC73; 
+ }
+#edu-degree{
+	margin-top: 160px;
+	
+}
+#edu-c2{
+margin-top: 400px;
+margin-left: 300px;
+position: absolute;
+background-color:#00CC73; 
+}
+#edu-diploma{
+	margin-top: 400px;
+}
+#edu-c3{
+margin-top: 640px;
+margin-left: 300px;
+position: absolute;
+background-color:#00CC73;
+}
+#edu-base{
+	margin-top: 640px;
+}
+#edu-c4{
+margin-top: 880px;
+margin-left: 300px;
+position: absolute;
+background-color:#00CC73;
+}
+#edu-matriculation{
+	margin-top: 880px;
+
+}
+.edu-subcontent h1{
+	font-size: 15px;
+	padding-left: 25px;
+	height: 20px;
+	margin-top: 16px;
+	font-family: calibri;
+
+	
+}
+.edu-subcontent p{
+	margin-left:203px;
+    position: absolute;
+    margin-top: -30px;
+    font-family: calibri;
+}
+/*CSS style for Skills.html*/
+#skills-h1{
+	font-size: 50px;
+	margin-left: 390px;
+}
+.skills-div{
+	width: 100%;
+	height: 350px;
+	position:absolute; 
+	/*border-bottom-style:solid;
+	 border-width: 1px;*/
+}
+#Technical{
+	margin-top: 200px;
+	background-color:#ddd;
+	height: 200px;
+}
+.skills-c1{
+margin-top: 24px;
+margin-left: 143px;
+position: absolute;
+background-color:#FF6666; 
+ }
+ #s-c1{
+ 	margin-top: -9px;
+ 	background-color: #FF9900;
+ }
+ #s-c4{
+ 	margin-top:-13px;
+ 	background-color:#FFFF6A;
+ }
+ #s-c2{
+ 	margin-top: 30px;
+ 	background-color:#E68AB8;
+ }
+ #s-c3{
+ 	margin-top: 50px;
+ 	background-color: #00FFCC;
+ }
+#Personal{
+	margin-top: 401px;
+	background-color:#ddd;
+	height: 300px;
+}
+#Extra{
+	margin-top: 702px;
+	background-color:#ddd;
+}
+#Language{
+	margin-top: 1053px;
+	background-color:#ddd;
+	height: 200px;
+}
+.skills-para{
+	margin-top: 17px;
+	margin-left: 415px;
+	font-family: cursive;
+}
+.skills-height{
+	height: 1300px;
+}
+
+#hello {
+	width: 2.5%;
+	position: absolute;
+	top: 5px;
+	left: 402px;
+}
